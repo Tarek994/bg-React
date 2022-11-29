@@ -13,6 +13,9 @@ const Main = () => {
                 <p>To my site.</p>
                 <p className="phrase"> Here is a simple live background for hero section</p>
             </div>
+            
+            
+            
         </div>
     )
 }
