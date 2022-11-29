@@ -60,11 +60,15 @@ video {
 }
 
 .services-items{
+  justify-content: space-between;
 
 }
 
 .services-image{
+  width: 30em;
+  
 
+  
 }
 
 .services-description{
