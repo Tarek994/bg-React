@@ -26,8 +26,7 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-
+  color: #eef4ed;
 }
 
 .phrase{
@@ -48,4 +47,11 @@ video {
   height: 100vh;
   text-align: center;
   background-color: #eef4ed;
+
+}
+
+.services-title{
+  padding-top: 50px;
+  color: #0b2545;
+
 }
