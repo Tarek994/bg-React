@@ -66,11 +66,16 @@ video {
 
 .services-image{
   width: 30em;
+  position: absolute;
+  left: 900px;
+  margin-top:90px;
+  border-radius: 20px;
+  border: 2px solid black;
   
 
   
 }
 
 .services-description{
-
+  
 }
