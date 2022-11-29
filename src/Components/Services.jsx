@@ -1,3 +1,4 @@
+import newimg from "../assets/newimg.webp"
 
 const Services = () => {
   return (
@@ -7,11 +8,18 @@ const Services = () => {
         </div>
 
         <div className="services-items">
-          <img className="services-image" src="" alt="" />
-        </div>
+          <img className="services-image" src={newimg} alt="" />
+        
 
-        <div className="services-description">
-          
+          <div className="services-description">
+            <ol>
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+
+            </ol>
+          </div>
         </div>
     </div>
   )
