@@ -12,13 +12,12 @@ const Services = () => {
         
 
           <div className="services-description">
-            <ol>
-              <li>hello</li>
-              <li>hello</li>
-              <li>hello</li>
-              <li>hello</li>
-
-            </ol>
+            <ul className="services-list">
+              <li> Asperiores repudiandae at modi velit laborum odit,</li>
+              <li> Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+              <li> nihil earum nulla minus sed, facere, omnis cumque?</li>
+              <li> nihil earum nulla minus sed, facere, omnis cumque?</li>
+            </ul>
           </div>
         </div>
     </div>
