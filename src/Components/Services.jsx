@@ -37,6 +37,19 @@ const Services = () => {
         <img className="trip-image" src={damas} alt="" />
         </div>
 
+        <div className="trip-description">
+            <ul className="trip-list">
+              <li> Asperiores repudiandae at modi velit laborum odit</li>
+              <li> Visit to the most beautiful places ever</li>
+              <li> There are numerous locations that speak to their heritage. </li>
+              <li> We roam your world in search of luxury</li>
+            </ul>
+            <button className="trip-btn">
+             Book a tour !
+            </button>
+            
+          </div>
+
     </div>
 
     </>
