@@ -1,8 +1,8 @@
 import newimg from "../assets/newimg.webp"
-
+import damas from "../assets/damas.jpeg"
 const Services = () => {
   return (
-    <div>
+    <>
     <div className="services">
         <div className="services-title">
             <h1>Services</h1>
@@ -29,17 +29,17 @@ const Services = () => {
     </div>
 
     <div className="trip">
-      <div className="trip-title">
-              <h1> Our Trips</h1>
-      </div>
+        <div className="trip-title">
+                <h1> Our Trips</h1>
+        </div>
 
-      <div className="trip-items">
-      {/* <img className="trip-image" src={newimg} alt="" /> */}
-      </div>
-
-    </div>
+        <div className="trip-items">
+        <img className="trip-image" src={damas} alt="" />
+        </div>
 
     </div>
+
+    </>
   )
 }
 
