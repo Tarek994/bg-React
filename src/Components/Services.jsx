@@ -20,7 +20,7 @@ const Services = () => {
               <li>- We roam your world in search of luxury</li>
             </ul>
             <button className="book-btn">
-             Book a tour
+             Book a tour !
             </button>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Services = () => {
       </div>
 
       <div className="trip-items">
-      <img className="trip-image" src={newimg} alt="" />
+      {/* <img className="trip-image" src={newimg} alt="" /> */}
       </div>
 
     </div>
