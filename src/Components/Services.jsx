@@ -45,7 +45,7 @@ const Services = () => {
               <li> We roam your world in search of luxury</li>
             </ul>
             <button className="trip-btn">
-             Book a tour !
+            Explore the culture !
             </button>
             
           </div>
