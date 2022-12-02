@@ -2,6 +2,7 @@ import newimg from "../assets/newimg.webp"
 
 const Services = () => {
   return (
+    <div>
     <div className="services">
         <div className="services-title">
             <h1>Services</h1>
@@ -13,13 +14,31 @@ const Services = () => {
 
           <div className="services-description">
             <ul className="services-list">
-              <li> Asperiores repudiandae at modi velit laborum odit,</li>
-              <li> Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
-              <li> nihil earum nulla minus sed, facere, omnis cumque?</li>
-              <li> nihil earum nulla minus sed, facere, omnis cumque?</li>
+              <li>- Asperiores repudiandae at modi velit laborum odit</li>
+              <li>- Visit to the most beautiful places ever</li>
+              <li>- There are numerous locations that speak to their heritage. </li>
+              <li>- We roam your world in search of luxury</li>
             </ul>
+            <button className="book-btn">
+             Book a tour
+            </button>
           </div>
         </div>
+
+        
+    </div>
+
+    <div className="trip">
+      <div className="trip-title">
+              <h1> Our Trips</h1>
+      </div>
+
+      <div className="trip-items">
+      <img className="trip-image" src={newimg} alt="" />
+      </div>
+
+    </div>
+
     </div>
   )
 }
