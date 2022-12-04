@@ -1,5 +1,4 @@
 import old from "../assets/old.webp"
-import newimg from "../assets/newimg.webp"
 import {ImLocation} from "react-icons/im" 
 
 
