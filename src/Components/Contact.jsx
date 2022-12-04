@@ -1,5 +1,7 @@
 import old from "../assets/old.webp"
 import newimg from "../assets/newimg.webp"
+import {ImLocation} from "react-icons/im" 
+
 
 const Contact = () => {
   return (
@@ -17,6 +19,15 @@ const Contact = () => {
         </div>
 
         <div className="contact-right">
+          <div className="contact-description">
+              <ul className="contact-list">
+                <li><ImLocation/> London, UK  </li>
+                <li> +45 765 834 286</li>
+                <li> There are numerous locations that speak to their heritage. </li>
+              </ul>
+            
+              
+          </div>
 
         </div>
 
