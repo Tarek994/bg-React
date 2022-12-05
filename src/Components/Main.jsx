@@ -10,9 +10,9 @@ const Main = () => {
             </div>
             <video src={videoBg} autoPlay loop muted/>
             <div className="content">
-                <h1>Welcome</h1>
-                <p>To my site.</p>
-                <p className="phrase"> Here is a simple live background for hero section</p>
+                <h2>Welcome</h2>
+                <p>To <span className="web-name"> Super Trip</span></p>
+                <p className="phrase"> Get to know one of the most important tourist destinations ever.</p>
             </div>
             
             
