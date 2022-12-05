@@ -4,6 +4,7 @@ import videoBg from "../assets/videoBg.mp4"
 const Main = () => {
     return (
         <div className="main">
+            
             <div className="overlay">
 
             </div>
