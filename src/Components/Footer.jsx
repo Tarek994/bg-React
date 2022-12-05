@@ -1,9 +1,14 @@
+import {AiOutlineCopyright} from "react-icons/ai"
+
 
 const Footer = () => {
   return (
     <div className="footer">
-        <div className="footer-logo"></div>
-        <div className="contact"></div>
+        <a href="/" className="footer-logo"> Super Trip </a>
+        <div className="info">
+          <p>Copyright<AiOutlineCopyright/> Tarek Ghali</p>
+          
+        </div>
     </div>
   )
 }
