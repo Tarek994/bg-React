@@ -1,6 +1,8 @@
 import old from "../assets/old.webp"
 import {ImLocation} from "react-icons/im" 
 import {BsTelephoneFill} from "react-icons/bs" 
+import {MdEmail} from "react-icons/md"
+
 
 const Contact = () => {
   return (
@@ -22,7 +24,7 @@ const Contact = () => {
               <ul className="contact-list">
                 <li><ImLocation/> London, UK  </li>
                 <li><BsTelephoneFill/> +45 765 834 286</li>
-                <li> There are numerous locations that speak to their heritage. </li>
+                <li><MdEmail/> Super-trip@gmail.com</li>
               </ul>
             
               
