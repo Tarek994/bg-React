@@ -37,6 +37,7 @@ padding-right: 10em;
   color: #254441;
   font-size: 32px;
   padding-left: 6em;
+  font-weight: bold;
 }
 
 .main{
@@ -110,6 +111,7 @@ video {
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
+  text-decoration: none;
   
 }
 
@@ -215,6 +217,7 @@ video {
   cursor: pointer;
   font-size: 20px;
   left: 190px;
+  text-decoration: none;
   
 }
 .contact{
@@ -289,6 +292,7 @@ video {
   font-size: 32px;
   padding-left: 6em;
   align-items: center;
+  font-weight: bold;
 }
 
 .info{
