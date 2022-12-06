@@ -20,9 +20,9 @@ const Services = () => {
               <li>- There are numerous locations that speak to their heritage. </li>
               <li>- We roam your world in search of luxury</li>
             </ul>
-            <button className="book-btn">
+            <a className="book-btn" href="https://www.google.com/travel/flights">
              Book a tour !
-            </button>
+            </a>
           </div>
         </div>
 

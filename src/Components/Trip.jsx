@@ -20,9 +20,9 @@ const Trip = () => {
               <li> There are numerous locations that speak to their heritage. </li>
               <li> We roam your world in search of luxury</li>
             </ul>
-            <button className="trip-btn">
+            <a className="trip-btn" href="https://www.google.com/travel/flights">
             Explore the culture !
-            </button>
+            </a>
             
           </div>
 
