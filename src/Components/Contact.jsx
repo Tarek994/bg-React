@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="contact-description">
               <ul className="contact-list">
                 <li><ImLocation/> London, UK  </li>
-                <li><BsTelephoneFill/> +45 765 834 286</li>
+                <li><BsTelephoneFill/> +20 765 834 286</li>
                 <li><MdEmail/> Super-trip@gmail.com</li>
               </ul>
             
