@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./Components/Main"
-import Services from "./Components/Services";
-import Contact from "./Components/Contact";
-import Trip from "./Components/Trip";
-import Footer from "./Components/Footer";
-import NavBar from "./Components/NavBar";
+import Main from "./Components/main/Main"
+import Services from "./Components/services/Services";
+import Contact from "./Components/contact/Contact";
+import Trip from "./Components/trip/Trip";
+import Footer from "./Components/footer/Footer";
+import NavBar from "./Components/navbar/NavBar";
 
 function App() {
   return (
