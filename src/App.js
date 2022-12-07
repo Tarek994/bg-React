@@ -4,12 +4,12 @@ import Services from "./Components/services/Services";
 import Contact from "./Components/contact/Contact";
 import Trip from "./Components/trip/Trip";
 import Footer from "./Components/footer/Footer";
-import NavBar from "./Components/navbar/NavBar";
+import Navbar from "./Components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-        <NavBar/>
+        <Navbar/>
         <Main/>
         <Services/>
         <Trip/>
