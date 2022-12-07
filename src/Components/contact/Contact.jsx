@@ -1,4 +1,4 @@
-import old from "../assets/old.webp"
+import old from "../../assets/old.webp"
 import {ImLocation} from "react-icons/im" 
 import {BsTelephoneFill} from "react-icons/bs" 
 import {MdEmail} from "react-icons/md"

@@ -1,4 +1,4 @@
-import damas from "../assets/damas.jpeg"
+import damas from "../../assets/damas.jpeg"
 
 
 const Trip = () => {

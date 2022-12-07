@@ -1,4 +1,4 @@
-import newimg from "../assets/newimg.webp"
+import newimg from "../../assets/newimg.webp"
 
 
 const Services = () => {
