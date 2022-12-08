@@ -6,7 +6,7 @@ import {MdEmail} from "react-icons/md"
 
 const Contact = () => {
   return (
-    <>
+   
     <div className="contact">
         <div className="contact-left">
         <div className="contact-title">
@@ -33,7 +33,7 @@ const Contact = () => {
         </div>
 
     </div>
-    </>
+    
   )
 }
 
