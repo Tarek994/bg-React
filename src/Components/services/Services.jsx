@@ -17,7 +17,7 @@ const Services = () => {
             <ul className="services-list">
               <li>- Asperiores repudiandae at modi velit laborum odit</li>
               <li>- Visit to the most beautiful places ever</li>
-              <li>- There are numerous locations that speak to their heritage. </li>
+              <li>- There are a lot of locations that speak to their heritage.</li>
               <li>- We roam your world in search of luxury</li>
             </ul>
             <a className="book-btn" href="https://www.google.com/travel/flights">
