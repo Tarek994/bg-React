@@ -4,6 +4,9 @@
   padding: 0 ;
   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
+.app{
+  width: 100%;
+}
 
 
 .navbar{
@@ -49,7 +52,7 @@ padding-right: 10em;
 }
 
 video {
-  
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -93,10 +96,10 @@ video {
 
 .overlay{
   position: absolute;
-  top: 70px;
+  top: 0px;
   left: 0;
   width: 100%;
-  height: 622px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -275,34 +278,53 @@ video {
 }
 
 .footer{
-  height: 10vh;
-  overflow: hidden;
-  background-color: #254441;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
+    height: 10vh;
+    overflow: hidden;
+    background-color: #254441;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 .footer-logo{
-  text-decoration: none;
-  font-family: Caveat;
-  color: #eef4ed;
-  font-size: 32px;
-  padding-left: 6em;
-  align-items: center;
-  font-weight: bold;
-}
+    text-decoration: none;
+    font-family: Caveat;
+    color: #eef4ed;
+    font-size: 32px;
+    padding-left: 6em;
+    align-items: center;
+    font-weight: bold;
+  }
 
 .info{
-  color: #eef4ed;
-  padding-right: 70px;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: #eef4ed;
+     padding-right: 70px;
+     font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+    /* RESPONSIVE 420PX MOBILES */
 
-@media (max-width:420px){
-    
+ @media (max-width:420px){
+    .main-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        font-size: 20px;
+        padding-left: 10%;
+    }
+    .navigation{
+        padding-right: 5%;
+    }
+    .navigation a{
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+
     .main{
       
         width: 100%;
@@ -312,64 +334,157 @@ video {
         margin-top: 70px;
     }
     .content{
-        font-size:40px ;      
+        
+        font-size:23px ;      
         text-align: center;
     }
     .phrase{
-      font-size: 35px;
+        font-size: 20px;
     }
     .overlay{
-      height: 100%;
-      top: 0;
+        height: 97.5%;
+        top: 0;
+        
     }
-    .services{
-      height: 115vh;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;      
+    video{
+        height: 100%;
       
     }
+    .services{
+        height: 120vh;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
     .services-items{
-      align-items: center;
-      flex-direction: column;
-      display: flex;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
     }
 
     .services-image{
-      text-align: center;
+        text-align: center;
+        left: 0;
+        width: 80%;
+        margin: 0px 38px;
+        bottom: -24em;
     }
     .services-description{
-      text-align: center;
-      font-size: 18px;
-      padding: 0 15px;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
-      bottom: -38em;
-      margin: 0px 20px;
-      left: 0px;
+        text-align: center;
+        font-size: 18px;
+        padding: 0 15px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        bottom: -38em;
+        margin: 0px 20px;
+        left: 0px;
       
     }
     .services-list{
-       line-height: 40px; 
+        line-height: 40px; 
     }
-    .services-image{
-      left: 0;
-      width: 80%;
-      margin: 0px 38px;
-      bottom: -24em;
+    
+    .trip{
+        display: flex;
+        justify-content: center;
+        height: 135vh;
+
+    }
+    .trip-image{ 
+        left: 0;
+        width: 80%;
+        margin: 0px 10%;
+        margin-top: 35%;
+        
+    }
+    .trip-description{
+        text-align: center;
+        font-size: 18px;
+        padding: 0 38px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 0px;
+        margin-top: 155%;
+        
+    }
+    .trip-list{
+      line-height: 3em;
       
     }
+    .trip-btn{
+        text-align: center;
+        align-items: center;
+        right: 0px;
+        left: 0px;
+        margin: 0px 10%;
+        bottom: -88%;
+        
+    }
+
     .book-btn{
-      text-align: center;
-      align-items: center;
-      right: 0px;
-      left: 0px;
-      margin: 0px 15px;
-      
-      bottom: -7em;
+        text-align: center;
+        align-items: center;
+        right: 0px;
+        left: 0px;
+        margin: 0px 15px;
+        bottom: -7em;
+        padding: 12px 40px;
 
     }
 
 
 }
+    /* RESPONSIVE 320PX MOBILES */
+
+  @media (max-width:320px){
+    
+    .overlay{
+        height: 102% ;
+        top: 100;
+    }
+    
+    video{
+        height: 100%;
+      
+    }
+
+    .main-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content{
+          
+      font-size:23px ;      
+      text-align: center;
+    }
+    .logo{
+        font-size: 20px;
+        padding-left: 10%;
+    }
+    .navigation{
+        padding-right: 5%;
+    }
+    .navigation a{
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+    .services{
+      height: 165vh;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }   
+    
+    .trip{
+      height: 175vh;
+
+  }
+ 
+  }
