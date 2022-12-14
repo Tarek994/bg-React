@@ -1,20 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap');
 * {
   margin: 0;
   padding: 0 ;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.app{
+  width: 100%;
 }
 
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #eef4ed;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: calc(0.95);
+    top: 0px;
+}
+.navigation{
+    padding-right: 15%;
+}
+.navigation a{
+    color: #173431;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.logo{
+  text-decoration: none;
+  font-family: Caveat;
+  color: #254441;
+  font-size: 32px;
+  padding-left: 15%;
+  font-weight: bold;
+}
 
 .main{
   width: 100%;
-  height: 100vh;
-
+  height: 89vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  top: 70px;
+  margin-top: 70px;
 }
 
 video {
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.web-name{
+  font-size: 32px;
+  color: #173431;
+  background-color: #eef4ed;
+  border-radius: 5px;
+  padding: 0px 7px;
 }
 
 .content {
@@ -26,20 +75,476 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #eef4ed;
+  font-family: Caveat;
+  font-weight: bolder;
+  font-size: 20px;  
+  
+}
 
+.content h2 {
+  margin-bottom: 2%;
+}
+.content p{
+  margin-bottom: 2%;
 }
 
 .phrase{
   font-size: 20px;
-   
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 250;
+  margin-top: 50px;
+  
 }
 
 .overlay{
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 97.8%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.book-btn{
+  padding: 12px 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 190px;
+  background-color: #254441;
+  color:#eef4ed ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.services{
+  height: 100vh;
+  width: 100%;
+  
+  background-color: #eef4ed;
+
+}
+
+.services-title{
+  padding-top: 50px;
+  color: #0b2545;
+  font-size: 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.services-items{
+  display: flex;
+
+}
+
+.services-image{
+  width: 30em;
+  position: absolute;
+  left: 900px;
+  margin-top:90px;
+  border-radius: 12px;
+  border: 2px solid black;
+  
+
+  
+}
+
+.services-description{
+  padding: 20px;
+  font-size: 30px;
+  position: absolute;
+  left: 40px;
+  margin-top: 100px;
+  border-radius: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 11em;
+}
+
+.services-list{
+  list-style: none;
+  line-height: 60px;
+}
+
+
+.trip{
+  height: 100vh;
+  background-color: #254441;
+
+}
+.trip-title{
+  padding-top: 50px;
+  color: #eef4ed;
+  font-size: 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.trip-image{
+  width: 30em;
+  position: absolute;
+  left: 40px;
+  margin-top:70px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+
+.trip-description{
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  left: 600px;
+  margin-top: 100px;
+  border-radius: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 11em;
+  color: #eef4ed;
+}
+
+.trip-list{
+  list-style:armenian;
+  line-height: 90px;
+}
+
+.trip-btn{
+  padding: 12px 40px;
+  position: absolute;
+  margin-top: 30px;
+  background-color: #eef4ed;
+  color:#254441 ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  left: 190px;
+  text-decoration: none;
+  
+}
+.contact{
+  height: 90vh;
+  display: flex;
+
+}
+.contact-left{
+  width: 30%;
+  background-color: #eef4ed;
+}
+
+.contact-right{
+  width: 70%;
+  background-color: #a3b18a;
+  z-index: -100;
+}
+
+
+.contact-title{
+  position: absolute;
+  left: 610px;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.contact-image{
+  width: 35%;
+  position: absolute;
+  margin-top: 11%;
+  border-radius: 12px;
+  left: 10%;
+}
+
+
+.contact-description{
+  margin-top: 16%; 
+  position: absolute;
+  left: 50%;
+  line-height: 4em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.contact-list{
+  font-size: 28px;
+  color: #173431;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.footer{
+    height: 10vh;
+    overflow: hidden;
+    background-color: #254441;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+    text-decoration: none;
+    font-family: Caveat;
+    color: #eef4ed;
+    font-size: 32px;
+    padding-left: 6em;
+    align-items: center;
+    font-weight: bold;
+  }
+
+.info{
+     color: #eef4ed;
+     padding-right: 70px;
+     font-size: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    /* RESPONSIVE 420PX MOBILES */
+
+ @media (max-width:420px){
+    .main-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        font-size: 22px;
+        padding-left: 10%;
+    }
+    .navigation{
+        padding-right: 25%;
+        
+        
+    }
+    .navigation a{
+        padding-right: 0px;
+        font-size: 10px;
+        
+    }
+
+
+    .main{
+        width: 100%;
+        height: 89vh;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        top: 70px;
+        margin-top: 70px;
+    }
+    .content{
+        
+        font-size:23px ;      
+        text-align: center;
+        
+    }
+    
+    .content p{
+      margin-bottom: 30px;
+    }
+    .phrase{
+        
+        font-size: 20px;
+        margin: 0 12%;
+    }
+    .overlay{
+        height: 97.5%;
+        top: 0;
+        
+    }
+    video{
+        height: 100%;
+      
+    }
+    
+    .services{
+        height: 120vh;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .services-items{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .services-image{
+        text-align: center;
+        left: 0;
+        width: 80%;
+        margin: 0px 38px;
+        bottom: -24em;
+    }
+    .services-description{
+        text-align: center;
+        font-size: 18px;
+        padding: 0 15px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        bottom: -38em;
+        margin: 0px 20px;
+        left: 0px;
+      
+    }
+    .services-list{
+        line-height: 40px; 
+    }
+
+    .book-btn{
+      text-align: center;
+      align-items: center;
+      right: 0px;
+      left: 0px;
+      margin: 0px 15px;
+      bottom: -7em;
+      padding: 12px 40px;
+
+  }
+    
+    .trip{
+        display: flex;
+        justify-content: center;
+        height: 135vh;
+
+    }
+    .trip-image{ 
+        left: 0;
+        width: 80%;
+        margin: 0px 10%;
+        margin-top: 35%;
+        
+    }
+    .trip-description{
+        text-align: center;
+        font-size: 18px;
+        padding: 0 38px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        left: 0px;
+        margin-top: 155%;
+        
+    }
+    .trip-list{
+      line-height: 3em;
+      
+    }
+    .trip-btn{
+        text-align: center;
+        align-items: center;
+        right: 0px;
+        left: 0px;
+        margin: 0px 10%;
+        bottom: -88%;
+        
+    }
+    .contact{
+        height: 85vh;
+        display: flex;
+    }
+    .contact-title{
+        left: 35%;
+        font-size: 15px;
+    }
+
+    .contact-image{
+        width: 80%;
+        left: 0;
+        margin: 0px 10% ;
+        margin-top: 40%;
+      
+    }
+    .contact-description{
+        left: 8.5em;
+        margin-top: 110%;
+      
+    }
+    .contact-list{
+        font-size: 15px;
+        line-height: 50px;
+    }
+    
+    .footer-logo{
+      font-size: 30px;
+      padding-left: 10%;
+    }
+    .info{
+      padding-right: 10%;
+      font-size: 10px;
+    }
+
+
+
+}
+    /* RESPONSIVE 320PX MOBILES */
+
+  @media (max-width:320px){
+    
+    .overlay{
+        height: 102% ;
+        top: 100;
+    }
+    
+    video{
+        height: 100%;
+      
+    }
+
+    .main-nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content{
+          
+      font-size:23px ;      
+      text-align: center;
+    }
+    .logo{
+        font-size: 20px;
+        padding-left: 10%;
+    }
+    .navigation{
+        padding-right: 5%;
+    }
+    .navigation a{
+        padding-right: 0;
+        font-size: 12px;
+    }
+
+    .services{
+      height: 165vh;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }   
+
+    .trip{
+      height: 175vh;
+
+    }
+    .contact-title{
+      left: 31%;
+    }
+    .contact-image{
+      width: 70%;
+      margin-top: 35%;
+      margin-inline: 15%;
+    }
+    .contact-description{
+      margin-top: 90%;
+    }
+    .footer-logo{
+      font-size: 20px;
+    }
+  }
