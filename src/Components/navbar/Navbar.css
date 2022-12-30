@@ -1,0 +1,30 @@
+
+.main-nav{
+    background: #ed6a5a;
+    padding: 20px 0px;
+}
+
+.navbar{
+   max-width: 1200px;
+   padding: 10px 10px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.logo{
+    color: #3c3f53;
+    font-size: 25px;
+    font-family:fantasy ;
+    text-decoration: none;
+}
+.navigation a{
+    padding-right: 10px;
+    color: #3c3f53;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #3c3f53;
+}
+.navbar a:hover{
+    color: #3c3f53;
+}
