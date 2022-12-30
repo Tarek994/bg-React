@@ -3,19 +3,20 @@ import videoBg from "../../assets/videoBg.mp4"
 
 const Main = () => {
     return (
-        <div className="main">
-            
-            <div className="overlay">
+        <div className="main col-12 p-0">
+          <div className="main-content p-0">
+              
+            {/* <div className="overlay col-12">
 
-            </div>
-            <video src={videoBg} autoPlay loop muted/>
+            </div> */}
+            <video className="video col-12 p-0" src={videoBg} autoPlay loop muted/>
             <div className="content">
                 <h2>Welcome</h2>
                 <p>To <span className="web-name"> Super Trip</span></p>
                 <p className="phrase"> Get to know one of the most important tourist destinations ever.</p>
             </div>
             
-            
+           </div>
             
         </div>
     )
