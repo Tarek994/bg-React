@@ -1,4 +1,5 @@
 import React from "react";
+import "./Main.css"
 import videoBg from "../../assets/videoBg.mp4"
 
 const Main = () => {
