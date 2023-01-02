@@ -1,6 +1,6 @@
 import React from "react";
 import Main from "./Components/main/Main"
-// import Services from "./Components/services/Services";
+import Services from "./Components/services/Services";
 // import Contact from "./Components/contact/Contact";
 // import Trip from "./Components/trip/Trip";
 // import Footer from "./Components/footer/Footer";
@@ -11,8 +11,8 @@ function App() {
     <div className="app">
         <Navbar/>
          <Main/>
-        {/*<Services/>
-        <Trip/>
+       <Services/>
+         {/*<Trip/>
         <Contact/>
         <Footer/> */}
     </div>

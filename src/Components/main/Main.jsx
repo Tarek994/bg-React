@@ -7,10 +7,7 @@ const Main = () => {
         <div className="main col-12 p-0">
           <div className="main-content p-0">
               
-            <div className="overlay col-12">
-
-            </div>
-            <video className="video p-0 col-12" src={videoBg} autoPlay loop muted/>
+            <video className="video p-0 col-12" src={videoBg} autoPlay loop muted cover/>
             <div className="content">
                 <h2>Welcome</h2>
                 <p>To <span className="web-name"> Super Trip</span></p>
