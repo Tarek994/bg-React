@@ -15,7 +15,7 @@ const Services = () => {
               <img className="services-image col-5 " src={newimg} alt="" />
             
 
-              <div className="services-description col-5">
+              <div className="services-description col-lg-5 col-sm-10 col-xs-12">
                     <ul className="services-list  ">
                       <li>- Asperiores repudiandae at modi velit laborum odit</li>
                       <li>- Visit to the most beautiful places ever</li>
