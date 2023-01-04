@@ -11,10 +11,8 @@ const Trip = () => {
                   <h1> Our Trips</h1>
           </div>
 
-        <div className="trip-items col-lg-12">
-          <img className="trip-image col-lg-6 " src={damas} alt="" />
+        <div className="trip-items col-lg-12 m-auto">
           
-
             <div className="trip-description ">
               <ul className="trip-list">
                 <li> Asperiores repudiandae at modi velit laborum odit</li>
@@ -27,6 +25,7 @@ const Trip = () => {
               </a>
               
             </div>
+            <img className="trip-image col-lg-6 " src={damas} alt="" />
         </div>
       </div>
     </div>
