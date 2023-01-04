@@ -4,8 +4,48 @@
 .main-trip {
     padding-top: 100px;
     margin: auto;
-    background-color: aqua;
+    background-color: #edede9;
+}
+.trip-title{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.trip-title h1{
+    color: #2f3e46;
 }
 .trip-items{
+    padding: 0px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trip-description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.trip-list{
+    list-style: none;
+    background-color: #fff;
+    height: min-content;
+    padding: 0px;
+    line-height: 3.5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    
+
+    
+}
+.trip-image{
+    max-width: 500px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+}
+.trip-btn{
+    color: #edede9;
+    background-color: #2172e5;
+    width: fit-content;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    
 }
