@@ -1,0 +1,11 @@
+
+
+
+.main-trip {
+    padding-top: 100px;
+    margin: auto;
+    background-color: aqua;
+}
+.trip-items{
+    display: flex;
+}
