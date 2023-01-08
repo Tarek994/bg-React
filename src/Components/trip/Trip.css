@@ -1,7 +1,6 @@
 
-
-
 .main-trip {
+    max-width: 1200px;
     padding-top: 100px;
     margin: auto;
     background-color: #edede9;
@@ -32,9 +31,6 @@
     padding: 0px;
     line-height: 3.5em;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
-    
-
-    
 }
 .trip-image{
     max-width: 500px;
