@@ -1,9 +1,12 @@
 
+.trip{
+    background-color: #edede9;
+}
 .main-trip {
     max-width: 1200px;
     padding-top: 100px;
     margin: auto;
-    background-color: #edede9;
+    
 }
 .trip-title{
     display: flex;
