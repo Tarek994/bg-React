@@ -1,3 +1,4 @@
+import "./Contact.css";
 import old from "../../assets/old.webp"
 import {ImLocation} from "react-icons/im" 
 import {BsTelephoneFill} from "react-icons/bs" 
