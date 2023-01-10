@@ -25,3 +25,9 @@
     border-radius: 12px;
     left: 10%;
   }
+  
+  .contact-right{
+    width: 70%;
+    background-color: #a3b18a;
+    z-index: -100;
+  }
