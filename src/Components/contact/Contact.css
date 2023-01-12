@@ -1,37 +1,29 @@
 .contact{
-    display: flex;
+    
     
 }
 .main-contact{
+  max-width: 1200px;
   margin: auto;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.contact-left{
-    width: 30%;
-    height: 100vh;
-    background-color: #205517;
-  }
+}
 
 .contact-title{
-  position: absolute;
-  left: 610px;
-  padding-top: 50px;
-  color: #000;
-  font-size: 20px;
+  margin-top: 6rem;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
+  height: fit-content;
+  background-color: antiquewhite;
 }
+
 .contact-image{
-    max-width: 380px;
+    max-width: 300px;
     position: absolute;
     margin-top: 11%;
     border-radius: 12px;
     left: 10%;
+    
   }
   
-  .contact-right{
-    width: 70%;
-    background-color: #a3b18a;
-    z-index: -100;
-  }
