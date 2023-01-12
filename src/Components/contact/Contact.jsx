@@ -10,30 +10,25 @@ const Contact = () => {
    
     <div className="contact col-lg-12">
       <div className="main-contact col-lg-10">
-            <div className="contact-left">
-            <div className="contact-title">
-                <h1 className="">Contact us</h1>
-            </div>
-              <div >
-                <img className="contact-image" src={old} alt=""/>
-              </div>
-              
-              
-            </div>
+            
+                <div className="contact-title col-12">
+                    <h1 className="">Contact us</h1>
+                </div>
 
-            <div className="contact-right">
-              <div className="contact-description">
-                  <ul className="contact-list">
-                    <li><ImLocation/> London, UK  </li>
-                    <li><BsTelephoneFill/> +20 765 834 286</li>
-                    <li><MdEmail/> Super-trip@gmail.com</li>
-                  </ul>
-                
+                <div className="contact-description">
+                    <img className="contact-image" src={old} alt=""/>
                   
-              </div>
-            </div>
+                    <ul className="contact-list">
+                      <li><ImLocation/> London, UK  </li>
+                      <li><BsTelephoneFill/> +20 765 834 286</li>
+                      <li><MdEmail/> Super-trip@gmail.com</li>
+                    </ul>
+                  
+                    
+                </div>
+            
 
-        </div>
+      </div>
     </div>
     
   )
