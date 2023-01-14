@@ -2,7 +2,7 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div className="main-nav col-12">
+    <div className="main-nav col-12 ">
         <div className="navbar col-lg-8 m-auto ">
             <a href="/" className="logo"> Super Trip </a>
 
