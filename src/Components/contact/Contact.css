@@ -1,6 +1,6 @@
 .contact{
-  
-  background-color: #edede9;    
+  margin: 0px;
+  background-color: #dad7cd;    
 }
 
 .main-contact{
@@ -13,18 +13,56 @@
 }
 
 .contact-title{
-  margin-top: 6rem;
+  color: #2f3e46;
+  margin-top: 10rem;
   text-align: center;
   height: fit-content;
-  background-color: antiquewhite;
+
 }
 
 .contact-image{
-    max-width: 300px;
-    position: absolute;
-    margin-top: 11%;
-    border-radius: 12px;
-    left: 10%;
-    
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-description{
+  padding: 0px 6rem;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contact-list{
+  list-style: none;
+  background-color: #fff;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+  color: #2f3e46;
+  letter-spacing: 6px;
+  line-height: 4rem;
+  font-size: 18px;
+  max-width:fit-content;
+  margin: auto 0px;
+}
+
+@media (max-width:992px){
+  .contact{
+    padding: 0;
+  }
+  .contact-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .contact-image{
+    margin-bottom: 3rem;
+  }
+  .contact-list{
+    width: 100%;
   }
   
+}
