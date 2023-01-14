@@ -8,27 +8,25 @@ import {MdEmail} from "react-icons/md"
 const Contact = () => {
   return (
    
-    <div className="contact col-lg-12">
-      <div className="main-contact col-lg-10">
+    <div className="contact col-12">
+      <div className="main-contact col-10">
             
                 <div className="contact-title col-12">
                     <h1 className="">Contact us</h1>
                 </div>
 
-                <div className="contact-description">
-                    <img className="contact-image" src={old} alt=""/>
+                <div className="contact-description col-12">
+                    <img className="contact-image col-6" src={old} alt=""/>
                   
-                    <ul className="contact-list">
+                    <ul className="contact-list col-6">
                       <li><ImLocation/> London, UK  </li>
-                      <li><BsTelephoneFill/> +20 765 834 286</li>
-                      <li><MdEmail/> Super-trip@gmail.com</li>
+                      <li><BsTelephoneFill/> +20 000 000 000</li>
+                      <li><MdEmail/> super-trip@gmail.com</li>
                     </ul>
-                  
-                    
                 </div>
-            
-
       </div>
+
+     
     </div>
     
   )
