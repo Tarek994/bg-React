@@ -37,7 +37,7 @@
 }
 .trip-image{
     padding: 20px;
-    max-width: 500px;
+    max-width: 400px;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
 }
 .trip-btn{
@@ -49,4 +49,32 @@
     border-radius: 5px;
     margin: auto;
     
+}
+
+@media (max-width:994px){
+    .trip{
+        height: 100%;
+        padding-bottom: 0px;
+    }
+    .trip-items{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .trip-description{
+        
+        display: flex;
+        align-items: center;
+    }
+    .trip-image{
+        max-width: 420px;
+    }
+    .trip-list{
+        
+        margin: 6em 0em;
+    }
+    .trip-btn{
+        margin-bottom: 2rem ;
+    }
 }
