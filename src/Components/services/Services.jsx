@@ -17,10 +17,10 @@ const Services = () => {
 
               <div className="services-description col-lg-5 col-sm-10 col-xs-12">
                     <ul className="services-list  ">
-                      <li>- Asperiores repudiandae at modi velit laborum odit</li>
-                      <li>- Visit to the most beautiful places ever</li>
-                      <li>- There are a lot of locations that speak to their heritage.</li>
-                      <li>- We roam your world in search of luxury</li>
+                      <li>Asperiores repudiandae at modi velit laborum odit</li>
+                      <li>Visit to the most beautiful places ever</li>
+                      <li>There are a lot of locations that speak to their heritage.</li>
+                      <li>We roam your world in search of luxury</li>
                     </ul>
                   <a className="book-btn" href="https://www.google.com/travel/flights">
                   Book a tour !
