@@ -1,0 +1,26 @@
+.footer{
+    background-color:#2f3e46;
+    padding: 1.5rem 0rem;
+}
+
+.main-footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    color: #edede9;
+    display: flex;
+    align-items: center;
+}
+
+.info p{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    color: #edede9;
+}
+
+

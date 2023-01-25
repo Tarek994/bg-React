@@ -1,3 +1,4 @@
+import "./Contact.css";
 import old from "../../assets/old.webp"
 import {ImLocation} from "react-icons/im" 
 import {BsTelephoneFill} from "react-icons/bs" 
@@ -7,31 +8,25 @@ import {MdEmail} from "react-icons/md"
 const Contact = () => {
   return (
    
-    <div className="contact">
-        <div className="contact-left">
-        <div className="contact-title">
-            <h1 className="">Contact us</h1>
-        </div>
-          <div >
-            <img className="contact-image" src={old} alt=""/>
-          </div>
-          
-          
-        </div>
-
-        <div className="contact-right">
-          <div className="contact-description">
-              <ul className="contact-list">
-                <li><ImLocation/> London, UK  </li>
-                <li><BsTelephoneFill/> +20 765 834 286</li>
-                <li><MdEmail/> Super-trip@gmail.com</li>
-              </ul>
+    <div className="contact col-12">
+      <div className="main-contact col-10">
             
-              
-          </div>
+                <div className="contact-title col-12">
+                    <h1 className="">Contact us</h1>
+                </div>
 
-        </div>
+                <div className="contact-description col-12">
+                    <img className="contact-image col-6" src={old} alt=""/>
+                  
+                    <ul className="contact-list col-6">
+                      <li><ImLocation/> London, UK  </li>
+                      <li><BsTelephoneFill/> +20 000 000 000</li>
+                      <li><MdEmail/> super-trip@gmail.com</li>
+                    </ul>
+                </div>
+      </div>
 
+     
     </div>
     
   )
