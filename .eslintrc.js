@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 module.exports = {
     "env": {
         "browser": true,
@@ -7,18 +10,16 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:prettier/recomended"
+        "plugin:prettier/recommended"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
+    "plugins": ["react", "prettier"],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "error",
+        "prettier/prettier": "error"
     }
-}
+};
