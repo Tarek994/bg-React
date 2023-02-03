@@ -5,7 +5,7 @@ import "./Trip.css";
 const Trip = () => {
   return (
     
-    <div className="trip col-lg-12">
+    <div id="trip" className="trip col-lg-12">
       <div className="main-trip col-lg-10">
           <div className="trip-title col-lg-12">
                   <h1> Our Trips</h1>
