@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/bg-React/static/css/main.891070bb.css",
-    "main.js": "/bg-React/static/js/main.7d5f6e87.js",
+    "main.css": "/bg-React/static/css/main.e6b9f331.css",
+    "main.js": "/bg-React/static/js/main.1139601c.js",
     "static/js/787.78ec2046.chunk.js": "/bg-React/static/js/787.78ec2046.chunk.js",
     "static/media/videoBg.mp4": "/bg-React/static/media/videoBg.56441fcbb87daf6a532a.mp4",
+    "static/media/newimg.webp": "/bg-React/static/media/newimg.6b5bca0c5326f750a94d.webp",
+    "static/media/damas.jpeg": "/bg-React/static/media/damas.6c7ba79f585ca8367593.jpeg",
+    "static/media/old.webp": "/bg-React/static/media/old.757dcfe5b4e3d7b00a40.webp",
     "index.html": "/bg-React/index.html",
-    "main.891070bb.css.map": "/bg-React/static/css/main.891070bb.css.map",
-    "main.7d5f6e87.js.map": "/bg-React/static/js/main.7d5f6e87.js.map",
+    "main.e6b9f331.css.map": "/bg-React/static/css/main.e6b9f331.css.map",
+    "main.1139601c.js.map": "/bg-React/static/js/main.1139601c.js.map",
     "787.78ec2046.chunk.js.map": "/bg-React/static/js/787.78ec2046.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.891070bb.css",
-    "static/js/main.7d5f6e87.js"
+    "static/css/main.e6b9f331.css",
+    "static/js/main.1139601c.js"
   ]
 }
